@@ -1,7 +1,27 @@
-# LightHouse_Lab---Final-Proejct
-Future soccer predictions
+# European Top 8 Soccer League Prediction
 
-The goal of this project is to predict the winner of a future game in 36 different leagues in the world, also predict some information such as the number of shoots, yellow and red cards, total scores, some other details related to the match.  
+This project was created to predict a winners or tied game for the following European Soccer leagues:
+* Seria A (Italy),
+* Premier League and EFL (England), 
+* Bundesliga (Germany), 
+* La liga (Spain) and Ligue 1, Ligue 2 and Champion (France)
 
 
-This project will be using previous game statistics to predict also it will use a neural network to train the dataset to predict future events. After I desired accuracy is reached, the algorithms will be applied to a web application where anyone can access to predict their games. 
+## Getting Started
+
+All the codes in this project was created at Jupyter notebook and later transfered to Python. (.py)
+
+### Libraries 
+
+In this section all libraries will be detailed and in witch files they are.
+
+* Pandas: Treatment of DataBase. Used in Webscrapping and Treatment Files.
+* Numpy: Treatment of DataBase. Used in Treatment File.
+* Seaborn: Plot graphs and images. Used in Treatment File.
+* Matplotlib.pyplot: Plot graphs and images. Used in Treatment File.
+* scikit-learn: Predicting the results fo the games. 
+* Pickle: Import model to the Web-application
+* Stream Lit: Create a web=application for deployment
+
+## Conclusion
+This project were able to achive an accuracy into the its preduction of 65% using XGBoosting. 
