@@ -25,3 +25,6 @@ In this section all libraries will be detailed and in witch files they are.
 
 ## Conclusion
 This project were able to achive an accuracy into the its preduction of 65% using XGBoosting. 
+
+### Reference and Source
+The dataset was found at Kaggle.com [World Soccer DB: archive of odds [09.02.21]](https://www.kaggle.com/sashchernuh/european-football).
